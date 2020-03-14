@@ -1,6 +1,6 @@
-branches: 
+branch: 
   - master
-
+  
 language: csharp
 mono: none
 dotnet: 3.1.102
@@ -8,3 +8,6 @@ solution: ExampleSolution.sln
 
 script:
   - dotnet test /p:CollectCoverage=true /p:Threshold=50
+
+after_script: 
+  - bash <(curl -s https://codecov.io/bash)
