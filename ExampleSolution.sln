@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries", "src\Libraries\Libraries.csproj", "{5AB7EEB9-25E0-4D54-8CEE-71C01FF0E1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{3390FE8A-90BB-4B7E-B619-2189323E51AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AB7EEB9-25E0-4D54-8CEE-71C01FF0E1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB7EEB9-25E0-4D54-8CEE-71C01FF0E1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB7EEB9-25E0-4D54-8CEE-71C01FF0E1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB7EEB9-25E0-4D54-8CEE-71C01FF0E1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3390FE8A-90BB-4B7E-B619-2189323E51AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3390FE8A-90BB-4B7E-B619-2189323E51AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3390FE8A-90BB-4B7E-B619-2189323E51AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3390FE8A-90BB-4B7E-B619-2189323E51AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
