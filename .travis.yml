@@ -1,5 +1,6 @@
-branch: 
-  - master
+branches:
+  only:
+    - master
   
 language: csharp
 mono: none
