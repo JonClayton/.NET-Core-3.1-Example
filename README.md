@@ -3,3 +3,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/JonClayton/.NET-Core-3.1-Example/badge.svg?branch=)](https://coveralls.io/github/JonClayton/.NET-Core-3.1-Example?branch=)
 
 This is a playground for .NET Core 3.1 showing Travis and Coveralls hooks
+
+
